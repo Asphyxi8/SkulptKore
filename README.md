@@ -1,6 +1,8 @@
 # SkulptKore - Your Fitness Companion 🏋️‍♂️
 
-Welcome to SkulptKore, your ultimate fitness companion! This PHP-based website empowers users to create personalized workout plans, track fitness progress, and conveniently shop for fitness essentials.
+Welcome to SkulptKore, your ultimate fitness companion! This PHP-based website empowers users to create personalized workout plans, track fitness progress, and conveniently shop for fitness essentials. 
+**SkulptKore is a strictly educational project intended for learning purposes. It is not intended for commercial use, and all features are designed to showcase and enhance programming and development skills.**
+
 
 ## Features 💪
 
