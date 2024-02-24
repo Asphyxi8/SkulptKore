@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            font-size: 1.2em;
+            font-weight: 500;
+        }
+        h1{
+            text-align: center;
+        }
+        table{
+            width:98%;
+        }
+        table,th,td{
+            text-align: center;
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        .box_left{
+            position: absolute;
+            left: 5%;
+            top: 2%;
+            width: 25%;
+            height: 96%;
+            border-radius: 10px;
+            background: #291F1E;
+            color: white;
+        }
+        .box_right{
+            position: absolute;
+            right: 5%;
+            top: 2%;
+            width: 60%;
+            height: 96%;
+        }
+        .items{
+            padding-top: 20px;
+            padding-left: 20px;
+            color:#291F1E;
+        }
+        .items_left{
+            padding-top: 20px;
+            padding-left: 50px;
+        }
+        .head{
+            font-weight: bold;
+            font-size:27px;
+            color:#197278
+        }
+        .head_sh_left{
+            background-color: #197278;
+            height: 30px;
+            width:1000px;
+            border-radius: 15px;
+            transform: translate(-20%,0%);
+        }
+        .img{
+            border-radius:50%;
+        }
+        .img_back{
+            background-color: #291F1E;
+        }
+        .container{
+            width:200px;
+            height:200px;
+            border-radius: 1000px;
+            border:10px solid #197278;
+            background-color: #291F1E(0, 0, 0);
+            transform: translate(0,-7px);
+        }
+        .profile{
+            padding-top: 10%;
+            padding-left: 23%;
+        }
+        .c1{
+            height:300px;
+            width:300px;
+            border-radius:50%;
+            background-color: #197278;
+            position:fixed;
+            left:0%;
+            top:70%;
+            transform: translate(-37%,27%);
+        }
+        .c2{
+            height:300px;
+            width:300px;
+            border-radius:50%;
+            background-color: #291F1E;
+            position:fixed;
+            right:0%;
+            bottom:0%;
+            transform: translate(40%,15%);
+        }
+        .c3{
+            height:150px;
+            width:150px;
+            border-radius:50%;
+            background-color: #197278;
+            position:fixed;
+            right:0%;
+            top:70%;
+            transform: translate(30%,-65%);
+        }
+        .c4{
+            height:100px;
+            width:100px;
+            border-radius:50%;
+            background-color: #291F1E;
+            position:fixed;
+            left:0%;
+            top:0%;
+            transform: translate(-25%,80%);
+        }
+        .c5{
+            height:200px;
+            width:200px;
+            border-radius:50%;
+            background-color: #197278;
+            position:fixed;
+            left:0%;
+            top:0%;
+            transform: translate(7%,-27%);
+        }
+        .c6{
+            height:200px;
+            width:200px;
+            border-radius:50%;
+            background-color: #291F1E;
+            position:fixed;
+            right:0%;
+            top:0%;
+            transform: translate(-35%,-25%);
+        }
+        .l1{
+            height:100px;
+            width:50%;
+            border-radius: 50px;
+            background-color: #197278;
+            position: fixed;
+            left:60%;
+            top:-5%;
+        }
+        .l2{
+            height:3px;
+            width:50%;
+            border-radius: 2px;
+            background-color: #197278;
+            position: fixed;
+            left:35%;
+            bottom:5%;
+        }
+        #icons li{
+            display:inline;
+            padding-left:10%;
+        position:relative;
+        left:-10%;
+        }
+        #icons i:hover{
+            transform:scale(1.3);
+            color:#197278;
+        }
+        .box_right hr{
+            width:60%;
+            transition:2s;
+            height:1px;
+        }
+        .box_right:hover hr{
+            width:80%;
+            transition:2s;
+        }
+        .box_left hr{
+            width:70%;
+            transition:2s;
+        }
+        .box_left:hover hr{
+            width:50%;
+            transition:2s;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="c2"></div>
+    <div class="c3"></div>
+    <div class="box_left">
+        <div class="profile">
+            <img src="girl.jpg" width=130% height=130% class="container">
+        </div>
+        <hr>
+        <div class="items_left">
+            <div style="padding-bottom:3px;padding-right:10px;color:white"><b>Name:</b> Kanishka Ravindra Raikwar</div>
+            <div style="padding-bottom:3px;padding-right:10px;color:white"><b>Age:</b> 19</div>
+            <div style="padding-bottom:3px;padding-right:20px;color:white"><b>Address:</b> 405/B, Runwal Greens, Mulund(W), Mumbai-78, Maharashtra, India</div>
+        </div>
+        <br>
+        <hr>
+        <div class="items_left">
+            <div class="head">Socials:</div>
+            <ul style="padding-left: 70px;" id="icons">
+                <li class="li_insta"><a href="www.google.com" style="text-decoration: none;color:white; " ><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
+                <li class="li_twitter"><a href="www.google.com" style="text-decoration: none;color:white"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></li>
+                <li class="li_link"><a href="www.google.com" style="text-decoration: none;color:white"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="items_left">
+            <div class="head">Hobbies:</div>
+            <ul style="padding-left: 70px;">
+                <li>Reading</li>
+                <li>Drawing</li>
+                <li>Dancing</li>
+                <li>Watching Documentries</li>
+            </ul>
+        </div>
+    </div>
+    <div class="c1"></div>
+    <div class="c5"></div>
+    <div class="c4"></div>
+    <div class="box_right">
+        <div class="items">
+            <p class="head">Experience:</p>
+            <div>
+                <p class="head">Content Writer</p>
+                <hr>
+                <i>Live At Campus <span style="float:right;padding-right:25px;">2022-2023</span></i>
+                <ul>
+                    <li>Part of research and planning for written content on website and social media</li>
+                    <li>Designed Social Media posts for Instagram</li>
+                    <li>Designed miscellaneous creative items like visiting cards and brochures</li>
+                    <li>Wrote content for informative reels</li>
+                    <li>Tasked with competitor research</li>
+                </ul>
+            </div>
+            <br>
+            <hr>
+            <p class="head">Qualifications:</p>
+            <table>
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Qualification</th>
+                    <th>Institute</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>B.Tech.</td>
+                    <td>K.J.Somaiya College of Engineering</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>HSC</td>
+                    <td>Kendriya Vidyalaya Bhandup</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>SSC</td>
+                    <td>Kendriya Vidyalaya Bhandup</td>
+                    <td>2019</td>
+                </tr>
+            </table>
+        </div>
+        <br><br>
+        <hr>
+        <div class="items">
+            <div class="head">Skillset:</div>
+            <ul>
+                <li>Coding languages: Python, Java, HTML, C</li>
+                <li>Softwares known: VSCode, AutoCAD, PhotoShop, Krita</li>
+                <li>Soft Skills: Proficient at Communication, Leadership, handling Pressure</li>
+                <li>Languages spoken: English, Hindi, Marathi</li>
+            </ul>
+        </div>
+    </div>
+    <div class="l1"></div>
+    <div class="c6"></div>
+    <div class="l2"></div>
+</body>
+</html>

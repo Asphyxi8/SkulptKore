@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Resume</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            font-size: 100%;
+            font-weight: 500;
+        }
+        h1{
+            text-align: center;
+        }
+        table{
+            width:98%;
+        }
+        table,th,td{
+            text-align: center;
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        .box_left{
+            position: absolute;
+            left: 5%;
+            top: 2%;
+            width: 25%;
+            height: 96%;
+            border-radius: 10px;
+            background: #291F1E;
+            color: white;
+        }
+        .box_right{
+            position: absolute;
+            right: 5%;
+            top: 2%;
+            width: 60%;
+            height: 96%;
+        }
+        .items{
+            padding-top: 20px;
+            padding-left: 20px;
+            color:#291F1E;
+        }
+        .items_left{
+            padding-top: 20px;
+            padding-left: 50px;
+        }
+        .head{
+            
+            font-size:190%;
+            color:#DB504A;
+            text-shadow:1px 1px 1px black;
+        }
+        .head_sh_left{
+            background-color: #ebd4cb;
+            height: 30px;
+            width:1000px;
+            border-radius: 15px;
+            transform: translate(-20%,0%);
+        }
+        .img{
+            border-radius:50%;
+        }
+        .img_back{
+            background-color: #291F1E;
+        }
+        .container{
+            width:200px;
+            height:200px;
+            border-radius: 1000px;
+            border:10px solid #ebd4cb;
+            background-color: #291F1E(0, 0, 0);
+            transform: translate(0,-7px);
+        }
+        .profile{
+            padding-top: 10%;
+            padding-left: 20%;
+        }
+        .c1{
+            height:300px;
+            width:300px;
+            border-radius:50%;
+            background-color: #DB504A;
+            position:fixed;
+            left:0%;
+            top:70%;
+            transform: translate(-37%,27%);
+        }
+        .c2{
+            height:300px;
+            width:300px;
+            border-radius:50%;
+            background-color: hsl(5, 15%, 14%);
+            z-index:-100;
+            position:fixed;
+            right:0%;
+            bottom:0%;
+            transform: translate(40%,15%);
+        }
+        .items,table,td,tr,th{
+            text-shadow:1px 0.1px 0.1px white;
+        }
+        .c3{
+           
+            height:150px;
+            width:150px;
+            border-radius:50%;
+            background-color: #DB504A;
+            position:fixed;
+            right:0%;
+            top:70%;
+            transform: translate(30%,-65%);
+        }
+        .c4{
+            height:100px;
+            width:100px;
+            border-radius:50%;
+            background-color: hsl(5, 15%, 14%);
+            position:fixed;
+            left:0%;
+            top:0%;
+            transform: translate(-25%,80%);
+        }
+        .c5{
+
+
+            height:200px;
+            width:200px;
+            border-radius:50%;
+            background-color: #DB504A;
+            position:fixed;
+            left:0%;
+            top:0%;
+            transform: translate(7%,-27%);
+        }
+        .c6{
+            height:200px;
+            width:200px;
+            border-radius:50%;
+            background-color: #291F1E;
+            position:fixed;
+            right:0%;
+            top:0%;
+            z-index:-100;
+            transform: translate(-35%,-25%);
+        }
+        .l1{
+            height:100px;
+            width:50%;
+            border-radius: 50px;
+            background-color: #DB504A;
+            position: fixed;
+            left:60%;
+            top:-5%;
+            z-index:-150;
+        }
+        .l2{
+            height:3px;
+            width:50%;
+            border-radius: 2px;
+            background-color: #DB504A;
+            position: fixed;
+            left:35%;
+            bottom:5%;
+        }
+
+
+        #icons li{
+            display:inline;
+            padding-left:10%;
+        position:relative;
+        left:-10%;
+        }
+        #icons i:hover{
+            transform:scale(1.3);
+            color:#f1a789;
+        }
+        hr{
+            width:300px;
+            border-color:#291F1E;
+            background-color:#DB504A;
+            transition:2s;
+            height:2px;
+        }
+        .box_right:hover hr{
+            width:60%;
+            transition:2s;
+        }
+        .box_left hr{
+            width:10%;
+        }
+        .box_left:hover hr{
+            width:50%;
+            transition:2s;
+        }
+
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="c2"></div>
+    <div class="c3"></div>
+    <div class="box_left">
+        <div class="profile">
+            <img src="assets/AboutS.png" class="container">
+        </div>
+        <hr>
+        <div class="items_left">
+            <div style="padding-bottom:3px;padding-right:10px;color:white"><b>Name:</b> Sania Jatin Prabhu</div>
+            <div style="padding-bottom:3px;padding-right:10px;color:white"><b>Age:</b> 19</div>
+            <div style="padding-bottom:3px;padding-right:20px;color:white"><b>Address:</b> Mulund East, Mumbai, 400081</div>
+        </div>
+        <hr>
+        <div class="items_left">
+            <div class="head">Socials:</div>
+            <ul style="padding-left: 30px;" id="icons">
+                <li class="li_insta"><a href="www.google.com" style="text-decoration: none;color:white; " ><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
+                <li class="li_twitter"><a href="www.google.com" style="text-decoration: none;color:white"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></li>
+                <li class="li_link"><a href="www.google.com" style="text-decoration: none;color:white"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    <div class="items_left">
+            <div class="head">Hobbies:</div>
+            <ul style="padding-left: 70px;">
+                <li>Drawing</li>
+                <li>Exercising</li>
+                <li>Learning new languages</li>
+                <li>Music</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="c1"></div>
+    <div class="c5"></div>
+    <div class="c4"></div>
+    <div class="box_right">
+        <div class="items">
+            <br>
+            <p class="head">Qualifications:</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Education</th>
+                        <th>Institute Name</th>
+                        <th>Course</th>
+                    </tr>
+                    <tr>
+                        <td>School</td>
+                        <td>NES International School Mumbai</td>
+                        <td>IGCSE</td>
+                    </tr>
+                    <tr>
+                        <td>Jr. College</td>
+                        <td>SM Shetty International School</td>
+                        <td>A LEVELS</td>
+                    </tr>
+                    <tr>
+                        <td>College</td>
+                        <td>K.J. Somaiya College of Engineering</td>
+                        <td>BTech in Computer Engineering</td>
+                    </tr>
+                  <tr>
+                        <td>Online Degree Program</td>
+                        <td>Indian Institute Of Technology Madras</td>
+                        <td>BSc in Programming and Data Science</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <hr>
+        <div class="items">
+            <div class="head">Experience:</div>
+            <p style="font-size: 110%;"><b>Website Planning and Design:</b></p>
+            <li>Member of the web organising committee for the SMSIMUN 2020</li>
+            <li>Team head for EUMIND project in 2019 </li>
+        </div>
+      <br>
+       <hr>
+        <div class="items">
+            <div class="head">Skillset:</div><br>
+            <li><b>Technical Skills:</b> Knowledge of computer hardware and software
+              <br> &emsp;&ensp;Have worked with languages such as Java, Python, C, C++, Console Based VB, SQL and HTML </li>
+            <li><b>Projects to be completed:</b> Will be completing 2 projects as part of Btech semester 3 <br>&emsp;&ensp;1 project each in courses Modern Application Development I and II as part of the Bsc program</li>
+            <li><b>Languages spoken:</b> English, Hindi, Konkani </li>
+            <li><b>Project Management:</b> Have experience in planning, organising and managing group projects</li>
+        </div>
+    </div>
+    <div class="l1"></div>
+    <div class="c6"></div>
+    <div class="l2"></div>
+</body>
+</html>
